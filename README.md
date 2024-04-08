@@ -8,7 +8,7 @@ Time spent: **2** hours spent in total
 
 ## Summary
 
-**Pokedex** is an android app that **It is an app that utilizes pokiapi to fetch Pokemons data, and uses recycle view to generate a list of pokemon and uses themes and styles to further bautify the app**
+**Pokedex** is an Android app that **It is app that utilizes pokiapi to fetch Pokemons data, uses recycle view to generate a list of Pokemon and uses themes and styles to further beautify the app**
 
 If I had to describe this project in three (3) emojis, they would be: **😊, 💻, 🔍**
 
@@ -48,7 +48,7 @@ GIF created with **ScreenToGif**
 
 ## Notes
 
-I learned about more about themes and styles to further beautify my app's appearance.
+I learned more about themes and styles to beautify my app's appearance further.
 
 ## License
 
