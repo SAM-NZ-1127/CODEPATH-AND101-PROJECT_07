@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/pokeImg"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            tools:layout_marginStart="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pokeName"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:background="#E80000"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/merriweather"
+                android:padding="10dp"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.PokemonName" />
+
+            <TextView
+                android:id="@+id/pokeHeight"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="5dp"
+
+                android:background="#304FFE"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.PokemonAttributes" />
+
+            <TextView
+                android:id="@+id/pokeWeight"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:background="#304FFE"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.PokemonAttributes" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
